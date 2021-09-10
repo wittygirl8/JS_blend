@@ -1,0 +1,77 @@
+/*Testing services in numbers*/
+.gmJKDs {
+    background: #010059;
+    color: #fff;
+    padding: 100px 0;
+}
+.Section-sc-1jp9o0i-0 .bhiCFr {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.eQkdKM {
+    margin-bottom: 0;
+}
+.bhiCFr {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1158px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+@media (max-width: 1158px){
+.bhiCFr {
+    max-width: 1040px;
+    margin-right: 0;
+    padding-left: 32px;
+}}
+@media (max-width: 1024px) and (max-width: 700px){
+.bhiCFr {
+    padding-left: 32px;
+    padding-right: 32px;
+}}
+.js-model-statistics-list {
+    display: flex;
+}
+.fkYLdo {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 70px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.kfQNXn {
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 1.1458333333333333;
+}
+.keGoax {
+    padding: 0;
+    margin: 0 0 90px;
+    text-align: center;
+    flex-basis: 33.333333333333336%;
+    min-width: 33.333333333333336%;
+}
+.eLncPW {
+    margin: 0 0 15px;
+    padding: 0;
+}
+.eGkdKa {
+    font-weight: 600;
+    font-size: 68px;
+    letter-spacing: 1.2px;
+    line-height: 1.1388888888888888;
+}
+.cbJvwM {
+    font-size: 1.2rem;
+    color: #8d9fa7;
+    line-height: 1.7;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 0;
+}
+@media (max-width: 600px){
+    .eLncPW {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,609 @@
+.ttm-page-title-row {
+    background-image: url("../../assets/img/blog-listing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 255px;
+    padding-bottom: 110px;
+    z-index: 0;
+}
+.breadcrumb-wrapper span{
+    color: rgba(204, 204, 204, 0.931);
+    font-size: 15px;
+    font-weight: 700;
+}
+.ttm-row.grid-section {
+    padding-bottom: 60px;
+}
+.ttm-bgcolor-grey {
+    background-color: #f7f9fe;
+}
+.ttm-box-view-left-image.featured-imagebox-post {
+    padding: 15px;
+}
+.offset--light-blue {
+    background: #f3f8fe;
+}
+.offset {
+    padding-top: 15.625rem;
+}
+.cmp-background.theme--purple-angles {
+    background-image: linear-gradient(to bottom right, purple, darkblue);
+    margin-bottom: 5.9rem;
+}
+.theme--purple-angles {
+    margin-top: -5rem;
+    background: rgb(158, 34, 158);
+}
+.theme {
+    padding: 7.5rem 0;
+}
+.theme {
+    padding: 5rem 0;
+}
+.industry-highlights__container.container {
+    padding: 0 1.5625rem 7.5rem;
+}
+.industry-highlights .container {
+    padding: 0;
+    max-width: 100%;
+}
+.theme .container {
+    position: relative;
+    z-index: 2;
+}
+.industry-highlights__header {
+    margin: 0 0 1.25rem;
+    text-align: center;
+}
+.picture-content{
+    width: 350px;
+    height: 300px;
+    transform: skewY(5deg);
+    margin-top: 20px;
+    border-radius: 2.5%;
+}
+.beforeFooter{
+    background-color: #fff;
+    width: 100%;
+    margin-top: 10px;
+}
+.image-content{
+    width: 350px;
+    height: 300px;
+    border-radius: 2%;
+}
+.blog-content{
+    background-color: #fff;
+    width: 364px;
+    height: 20px;
+    transform: perspective(15px) rotateY(-2deg);
+    margin-left: -90px;
+    margin-bottom: 15px;
+}
+.blog-content .explore{
+    float: left;
+    color: rgb(21, 14, 114);
+    font-weight: 500;
+    justify-content: right;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 29px;
+}
+.arrow{
+    float: right;
+    margin-top: 5%;
+}
+.cardsrow{
+    margin-left: -10%;
+    margin-bottom: -20%;
+}
+.contain{
+    position: relative;
+    width: 160px;
+    height: 200px;
+    display: inline-block;
+    margin-top: -25.5rem;
+    margin-left: 15%;
+    margin-bottom: 15rem;
+    border: red 2px !important;
+}
+.contain2{    
+    position: relative;
+    width: 160px;
+    height: 200px;
+    display: inline-block;
+    margin-top: -7.2em;
+    margin-bottom: 15rem;
+    margin-left: 15%;
+}
+.contain3{    
+    margin-left: 15%;
+    position: relative;
+    width: 160px;
+    height: 200px;
+    display: inline-block;
+    margin-top: -4.5rem;
+    margin-bottom: 15rem;
+
+}
+.overlay{
+    position: absolute;
+    transition: all .3s ease; 
+    opacity: 0;
+    background-color: #f3f8fe;
+    width: 318px;
+    height: 102px;
+    transform: perspective(49px) rotateY(2deg);
+    margin-top: 50px;
+}
+.overlayBottom{
+    width: 217%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 22px;
+    margin-bottom: -65px;
+    background-color: #272c2c;
+    border-radius: 1%;
+}
+.overlay2{
+    position: absolute;
+    transition: all .3s ease; 
+    opacity: 0;
+    background-color: #f3f8fe;
+    width: 318px;
+    height: 5px;
+    transform: perspective(8px) rotateY(-2deg);
+    margin-top: 50px;
+}
+.overlayBottom2{
+    width: 155.4%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: -45px;
+    margin-bottom: -104px;
+    background-color: #272c2c;
+    border-radius: 2%;
+}
+.contain:hover .overlayBottom2, .contain2:hover .overlayBottom2, .contain3:hover .overlayBottom2{
+    float: right;
+    height: 20%;
+    opacity: 10;
+    color: #fff;
+    margin-bottom: -112px;
+    background-image: linear-gradient(to bottom right, purple, darkblue);   
+}
+.contain:hover .overlayBottom, .contain2:hover .overlayBottom, .contain3:hover .overlayBottom{
+    height: 121.5%;
+    opacity: 10;
+    color: 1285c4;
+    background-color: rgb(240, 241, 245);
+    float: right;
+    border: none;
+}
+.contain:hover .overlayalign, .contain2:hover .overlayalign, .contain3:hover .overlayalign{
+    float: left;
+        margin-left: 100px;
+        margin-top: 2%;
+        font-size: 22px;
+}
+.contain:hover .overlayContent, .contain2:hover .overlayContent, .contain3:hover .overlayContent {
+    text-align: center;
+    margin-top: 30%;
+    font-size: 25px;
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+.industry-highlights__link:hover{
+    border:none !important
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .picture-content {
+        width:  140%;
+        height: 110%
+    }
+    .image-content{
+        width:  100%;
+        height: 100%;
+    }
+    .overlay{
+        opacity: 0;
+        transform: perspective(49px) rotateY(2deg);
+        margin-top: -50px;
+    }
+    .overlayBottom{
+        width: 140%;
+        height: 10;
+        margin-left: 9px;
+        margin-bottom: -10px;
+        }
+    .overlay2{
+        opacity: 0;
+        height: 5px;
+        transform: perspective(4px) rotateY(-2deg);
+    }
+    .overlayBottom2{
+        width: 88%;
+        height: 0;
+        margin-left: -28px;
+        margin-bottom: -30px;
+        
+    }
+    .contain:hover .overlayBottom2, .contain2:hover .overlayBottom2, .contain3:hover .overlayBottom2{
+        height: 11%;
+        opacity: 10;
+        margin-bottom: -34px;
+    }
+    .contain:hover .overlayBottom, .contain2:hover .overlayBottom, .contain3:hover .overlayBottom{
+        height: 95%;
+        opacity: 10;
+    }
+    .contain:hover .overlayContent, .contain2:hover .overlayContent, .contain3:hover .overlayContent {
+        text-align: center;
+        margin-top: 30%;
+        font-size: 25px;
+        color: purple;
+        font-family: 'Times New Roman', Times, serif;
+    }    
+    .contain:hover .overlayalign, .contain2:hover .overlayalign, .contain3:hover .overlayalign{
+        float: left;
+        margin-left: 60px;
+        margin-top: 2%;
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media (min-width:575px) and (max-width:768px) {
+    .picture-content {
+        width:  100%;
+        height: 65%
+    }
+    .image-content{
+        width:  100%;
+        height: 100%;
+    }
+    .overlay{
+        opacity: 0;
+        transform: perspective(49px) rotateY(2deg);
+        margin-top: -100px;
+    }
+    .overlayBottom{
+        width: 100%;
+        height: 0;
+        margin-left: 4px;
+        margin-bottom: 65px;
+        }
+    .overlay2{
+        opacity: 0;
+        height: 5px;
+        transform: perspective(8px) rotateY(-3deg);
+    }
+    .overlayBottom2{
+        width: 82%;
+        height: 10;
+        margin-left: -20px;
+        margin-bottom: 59px;
+        
+    }
+    .contain:hover .overlayBottom2, .contain2:hover .overlayBottom2, .contain3:hover .overlayBottom2{
+        height: 10.5%;
+        opacity: 10;
+        margin-bottom: 45px;
+    }
+    .contain:hover .overlayBottom, .contain2:hover .overlayBottom, .contain3:hover .overlayBottom{
+        height: 60%;
+        opacity: 10;
+    }
+    .contain:hover .overlayContent, .contain2:hover .overlayContent, .contain3:hover .overlayContent {
+        text-align: center;
+        margin-top: 30%;
+        font-size: 15px;
+        color: purple;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .contain:hover .overlayalign, .contain2:hover .overlayalign, .contain3:hover .overlayalign{
+        float: left;
+        margin-left: 60px;
+        margin-top: 2%;
+        font-size: 8px;
+    }
+}
+
+
+@media (min-width:275px) and (max-width:442px) {
+    .picture-content {
+        width:  140%;
+        height: 110%
+    }
+    .image-content{
+        width:  100%;
+        height: 100%;
+    }
+    .overlay{
+        opacity: 0;
+        transform: perspective(49px) rotateY(2deg);
+        margin-top: -50px;
+    }
+    .overlayBottom{
+        width: 140%;
+        height: 10;
+        margin-left: 9px;
+        margin-bottom: -10px;
+        }
+    .overlay2{
+        opacity: 0;
+        height: 5px;
+        transform: perspective(4px) rotateY(-2deg);
+    }
+    .overlayBottom2{
+        width: 88%;
+        height: 0;
+        margin-left: -28px;
+        margin-bottom: -30px;
+        
+    }
+    .contain:hover .overlayBottom2, .contain2:hover .overlayBottom2, .contain3:hover .overlayBottom2{
+        height: 11%;
+        opacity: 10;
+        margin-bottom: -34px;
+    }
+    .contain:hover .overlayBottom, .contain2:hover .overlayBottom, .contain3:hover .overlayBottom{
+        height: 95%;
+        opacity: 10;
+    }
+    .contain:hover .overlayContent, .contain2:hover .overlayContent, .contain3:hover .overlayContent {
+        text-align: center;
+        margin-top: 30%;
+        font-size: 25px;
+        color: purple;
+        font-family: 'Times New Roman', Times, serif;
+    }    
+    .contain:hover .overlayalign, .contain2:hover .overlayalign, .contain3:hover .overlayalign{
+        float: left;
+        margin-left: 60px;
+        margin-top: 2%;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+@media  (min-width:216px) and (max-width:275px) {
+    .picture-content {
+        width:  100%;
+        height: 65%
+    }
+    .image-content{
+        width:  100%;
+        height: 100%;
+    }
+    .overlay{
+        opacity: 0;
+        transform: perspective(49px) rotateY(2deg);
+        margin-top: -100px;
+    }
+    .overlayBottom{
+        width: 100%;
+        height: 0;
+        margin-left: 4px;
+        margin-bottom: 65px;
+        }
+    .overlay2{
+        opacity: 0;
+        height: 5px;
+        transform: perspective(8px) rotateY(-3deg);
+    }
+    .overlayBottom2{
+        width: 82%;
+        height: 10;
+        margin-left: -20px;
+        margin-bottom: 59px;
+        
+    }
+    .contain:hover .overlayBottom2, .contain2:hover .overlayBottom2, .contain3:hover .overlayBottom2{
+        height: 10.5%;
+        opacity: 10;
+        margin-bottom: 45px;
+    }
+    .contain:hover .overlayBottom, .contain2:hover .overlayBottom, .contain3:hover .overlayBottom{
+        height: 60%;
+        opacity: 10;
+    }
+    .contain:hover .overlayContent, .contain2:hover .overlayContent, .contain3:hover .overlayContent {
+        text-align: center;
+        margin-top: 30%;
+        font-size: 15px;
+        color: purple;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .contain:hover .overlayalign, .contain2:hover .overlayalign, .contain3:hover .overlayalign{
+        float: left;
+        margin-left: 60px;
+        margin-top: 2%;
+        font-size: 8px;
+    }
+}
+
+
+
+
+
+
+@media  (min-width:216px) and (max-width:275px) {
+    .picture-content {
+        width:  100%;
+        height: 65%
+    }
+    .image-content{
+        width:  100%;
+        height: 100%;
+    }
+    .overlay{
+        opacity: 0;
+        transform: perspective(49px) rotateY(2deg);
+        margin-top: -100px;
+    }
+    .overlayBottom{
+        width: 100%;
+        height: 0;
+        margin-left: 4px;
+        margin-bottom: 65px;
+        }
+    .overlay2{
+        opacity: 0;
+        height: 5px;
+        transform: perspective(8px) rotateY(-3deg);
+    }
+    .overlayBottom2{
+        width: 82%;
+        height: 10;
+        margin-left: -20px;
+        margin-bottom: 59px;
+        
+    }
+    .contain:hover .overlayBottom2, .contain2:hover .overlayBottom2, .contain3:hover .overlayBottom2{
+        height: 10.5%;
+        opacity: 10;
+        margin-bottom: 45px;
+    }
+    .contain:hover .overlayBottom, .contain2:hover .overlayBottom, .contain3:hover .overlayBottom{
+        height: 60%;
+        opacity: 10;
+    }
+    .contain:hover .overlayContent, .contain2:hover .overlayContent, .contain3:hover .overlayContent {
+        text-align: center;
+        margin-top: 30%;
+        font-size: 15px;
+        color: purple;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .contain:hover .overlayalign, .contain2:hover .overlayalign, .contain3:hover .overlayalign{
+        float: left;
+        margin-left: 60px;
+        margin-top: 2%;
+        font-size: 8px;
+    }
+}
+
+
+
+@media  (min-width:165px) and (max-width:219px) {
+    .picture-content {
+        width:  70%;
+        height: 65%
+    }
+    .image-content{
+        width:  100%;
+        height: 100%;
+    }
+    .overlay{
+        opacity: 0;
+        transform: perspective(49px) rotateY(5deg);
+        margin-top: -100px;
+    }
+    .overlayBottom{
+        width: 70%;
+        height: 0;
+        margin-left: 5px;
+        margin-bottom: 70px;
+        }
+    .overlay2{
+        opacity: 0;
+        height: 5px;
+        transform: perspective(8px) rotateY(-3deg);
+    }
+    .overlayBottom2{
+        width: 64%;
+        height: 0;
+        margin-left: -13px;
+        margin-bottom: 54px;
+        
+    }
+    .contain:hover .overlayBottom2, .contain2:hover .overlayBottom2, .contain3:hover .overlayBottom2{
+        height: 10.5%;
+        opacity: 10;
+        margin-bottom: 48px;
+    }
+    .contain:hover .overlayBottom, .contain2:hover .overlayBottom, .contain3:hover .overlayBottom{
+        height: 55%;
+        opacity: 10;
+    }
+    .contain:hover .overlayContent, .contain2:hover .overlayContent, .contain3:hover .overlayContent {
+        text-align: center;
+        margin-top: 40%;
+        font-size: 14px;
+        color: purple;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .contain:hover .overlayalign, .contain2:hover .overlayalign, .contain3:hover .overlayalign{
+        float: left;
+        margin-left: 35px;
+        margin-top: 6%;
+        font-size: 8px;
+    }
+}
+
+@media  (min-width:0px) and (max-width:165px) {
+    .picture-content {
+        width:  50%;
+        height: 65%
+    }
+    .image-content{
+        width:  100%;
+        height: 100%;
+    }
+    .overlay{
+        opacity: 0;
+        transform: perspective(49px) rotateY(5deg);
+        margin-top: -100px;
+    }
+    .overlayBottom{
+        width: 50%;
+        height: 0;
+        margin-left: 4px;
+        margin-bottom: 70px;
+        }
+    .overlay2{
+        opacity: 0;
+        height: 5px;
+        transform: perspective(8px) rotateY(-3deg);
+    }
+    .overlayBottom2{
+        width: 47.5%;
+        height: 0;
+        margin-left: -8px;
+        margin-bottom: 54px;
+        
+    }
+    .contain:hover .overlayBottom2, .contain2:hover .overlayBottom2, .contain3:hover .overlayBottom2{
+        height: 10.5%;
+        opacity: 10;
+        margin-bottom: 48px;
+    }
+    .contain:hover .overlayBottom, .contain2:hover .overlayBottom, .contain3:hover .overlayBottom{
+        height: 55%;
+        opacity: 10;
+    }
+    .contain:hover .overlayContent, .contain2:hover .overlayContent, .contain3:hover .overlayContent {
+        text-align: center;
+        margin-top: 40%;
+        font-size: 14px;
+        color: purple;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .contain:hover .overlayalign, .contain2:hover .overlayalign, .contain3:hover .overlayalign{
+        float: left;
+        margin-left: 35px;
+        margin-top: 6%;
+        font-size: 8px;
+    }
+}

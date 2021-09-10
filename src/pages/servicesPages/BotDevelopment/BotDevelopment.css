@@ -1,0 +1,124 @@
+.dgUWOj {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 5%;
+    list-style: none;
+}
+.fLZeAJ {
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    margin: 0 0 70px;
+    padding: 0 100px 0 32px;
+    font-size: 1rem;
+    line-height: 1.67;
+    color: #8d9fa7;
+}
+.dvlyvj {
+    margin: 0;
+    padding: 0;
+}
+.dvlyvj:before {
+    display: inline-block;
+    margin-left: -32px;
+    margin-right: 20px;
+    width: 12px;
+    height: 1px;
+    background: #f05722;
+    vertical-align: middle;
+    content: '';
+}
+.dCkeMZ {
+    display: inline;
+}
+.dCkeMZ span {
+    font-weight: 700;
+    color: #000;
+}
+.epWclf {
+    background: #fff;
+    color: #000;
+    padding: 100px 0;
+}
+.Section-sc-1jp9o0i-0 .bhiCFr {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+@media (min-width: 1400px){
+.bhiCFr {
+    max-width: 1360px;
+    padding-left: 60px;
+    padding-right: 60px;
+}}
+@media (max-width: 1158px){
+.bhiCFr {
+    max-width: 1040px;
+    margin-right: 0;
+    padding-left: 32px;
+}}
+.Section-sc-1jp9o0i-0 .bhiCFr {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+@media (max-width: 1024px) and (max-width: 700px){
+.bhiCFr {
+    padding-left: 32px;
+    padding-right: 32px;
+}}
+.kfQNXn {
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 1.1458333333333333;
+}
+
+/*how we do area*/
+.gmJKDs {
+    background: #010059;
+    color: #fff;
+    padding: 100px 0;
+}
+.Section-sc-1jp9o0i-0 .bhiCFr {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.bhiCFr {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1158px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.kfQNXn {
+    font-weight: 600;
+    font-size: 24px;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 1.1458333333333333;
+}
+.kOkeaW {
+    margin-top: 60px;
+    text-align: center;
+}
+@media (max-width: 1158px){
+    .bhiCFr {
+        max-width: 1040px;
+        margin-right: 0;
+        padding-left: 32px;
+    }
+}
+@media (max-width: 1024px) and (max-width: 700px){ 
+    .bhiCFr {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+@media (max-width: 1022px){ 
+    .bot_pic {
+        width: 100%;
+    }
+}

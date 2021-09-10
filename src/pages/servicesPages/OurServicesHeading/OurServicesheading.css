@@ -1,0 +1,65 @@
+.head-banner-img {
+    position: relative;
+    background-image: linear-gradient(to bottom right, darkblue, purple);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 110px;
+    margin-bottom: 2%;
+    z-index: 1;
+}
+
+.services-heading {
+    display: table;
+    padding: 40px 0 40px;
+    height: 100%;
+}
+.services-heading h1:hover {
+    color: red;
+}
+.services-heading h1 {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1.14;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    margin-left: 10px;
+    color: #fff;
+    
+    font-size: 82.2px;
+    font-weight: 600;
+    line-height: 1.14;
+    margin-top: 1rem;
+    margin-left: -4.5rem;
+    margin-bottom: 4rem;
+    color: #fff;
+}
+.services-heading p {
+    text-align: left;
+    line-height: 2;
+    color: #fff;
+    font-size: 25px;
+}
+.services-description {
+    padding: 10% 0% 0 5% !important;
+}
+.services-description h1:hover {
+    color: red;
+}
+.services-description h1{
+    /* margin: 2rem; */
+    font-size: 24px;
+}
+.services-description h2 {
+    /* margin: 1rem; */
+    font-size: 20px;
+}
+.services-description p{
+    font-size: 1rem;
+    color: #8d9fa7;
+    line-height: 1.64;
+    margin: 0 0 30px;
+}

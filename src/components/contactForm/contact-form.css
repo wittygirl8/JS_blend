@@ -1,0 +1,31 @@
+.contact-us {
+    background-image: linear-gradient(to bottom right, darkblue, purple);
+    color: #fff;
+    margin-top:35px;
+    margin-bottom:35px;
+}
+.contact-us .contact-heading {
+    text-align: center;
+    margin: 2rem;
+}
+.contact-us .contact-heading h1{
+    font-size: 44px;
+    line-height: 44px;
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #fff;
+}
+.contact-us .contact-form {
+    padding: 2%;
+}
+.contact-us .contact-form #submit {
+    background-color: #000;
+}
+.contact-us .contact-form #submit:hover {
+    background-color: #fff;
+    color: #000;
+}
+.contact-us .contactinfo {
+    margin-top: 25%;
+}

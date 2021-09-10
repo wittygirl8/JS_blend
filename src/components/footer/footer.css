@@ -1,0 +1,65 @@
+.mkdf-page-footer{   
+    background-image: linear-gradient(to bottom right, darkblue, purple);
+    color: #fff;
+    
+}
+.header{
+    padding: 0%;
+    display: flex;
+    align-items: left;
+    width: 100%;
+}
+.tit{
+    border-bottom: 2px solid #fff;
+    font-family: sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 20px;
+    font-weight: 700;
+}
+#content{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 350;
+    margin: 0%;
+    padding: 0%;
+    
+}
+#content:hover{
+    color: rgb(255, 255, 255) !important;
+    border-bottom: 2.5px rgb(131, 205, 218) solid !important;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+#text{
+    font-family: sans-serif;
+    color:#2d4a8a;
+    font-size: 17px;
+    font-weight: 350;
+    margin: 0%;
+    padding: 0%;
+    border-bottom: none;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+.flags{
+    margin-right: .5em;
+    justify-content: space-between;
+}
+.border_insta{
+    border-radius: 120px;
+}
+#text p, #ind h5, #us h5, #sa h5, #uae h5{
+    color: #fff;
+}
+.foot_icon:hover{
+    border:none !important;
+    border: 2.8px rgb(131, 205, 218) solid !important;
+    border-radius: 50%;
+}

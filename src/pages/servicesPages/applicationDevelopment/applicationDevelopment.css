@@ -1,0 +1,136 @@
+.application-banner-img {
+    position: relative;
+    background-image: linear-gradient(to bottom right, darkblue, purple);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    z-index: 1;
+    /* width: 100%; */
+}
+.application-heading {
+    display: table;
+    padding: 0px 0 40px;
+    text-align: left;
+}
+@media screen and (max-width: 600px) {
+    .application-heading h1 {
+        font-size: 50px !important;
+    }
+    .ecommerce-para {
+        padding: 0 0 0 8% !important;
+    }
+    .development-para {
+        padding: 0 0 0 8% !important;
+    }
+}
+.development-para {
+    padding: 0 6% 0 0 ;
+}
+.ecommerce-para {
+    padding: 0 6% 0 0 ;
+}
+.application-heading h1:hover {
+    color: red;
+}
+.application-heading h1 {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1.14;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    margin-left: 10px;
+    color: #fff;
+}
+.application-heading p {
+    text-align: left;
+    line-height: 2;
+    color: #fff;
+    font-size: 25px;
+}
+.application-description {
+    padding: 8% 0% 0 5% !important;
+}
+.ui-image {
+    background-image: url('../../../assets/img/UX-UI-designs.jpg');
+    background-size: cover;
+    height: 356px;
+    background-repeat: no-repeat;
+}
+/* .ui-description {
+    padding: 0 0 0 8% !important;
+} */
+.pl-8 {
+    padding: 0 0 0 8% !important;
+}
+.pr-8 {
+    padding: 0 6% 0 0 !important;
+
+}
+.ui-description h1{
+    /* padding: 0 10% 0 10%; */
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+.ui-description p {
+    /* padding: 0 10% 0% 10%; */
+    font-size: 1rem;
+    color: #8d9fa7;
+    line-height: 1.64;
+    margin: 0 0 30px;
+}
+.ui-description h2 {
+    /* padding-bottom: 0 10% 5% 10%; */
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.1666666666666667;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.1458333333333333;
+}
+.ui-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 15px;
+}
+.ui-list li::before {
+    display: inline-block;
+    margin-left: -32px;
+    margin-right: 20px;
+    width: 12px;
+    height: 1px;
+    background: #000;
+    vertical-align: middle;
+    content: '';
+}
+.ui-list li {
+    padding: 0 0 0 32px;
+    margin: 0 0 10px;
+    list-style: none;
+}
+.ecommerce-image {
+    background-image: url('../../../assets/img/Ecommerce.jpg');
+    background-size: cover;
+    height: 356px;
+    background-repeat: no-repeat;
+}
+.erp-image {
+    /* ERP-and-CRM-solutions */
+    background-image: url('../../../assets/img/ERP-and-CRM-solutions.jpg');
+    background-size: cover;
+    height: 356px;
+    background-repeat: no-repeat;
+}
+.development-image {
+    background-image: url('../../../assets/img/Android-and-iOS-development.jpg');
+    background-size: cover;
+    height: 356px;
+    background-repeat: no-repeat;
+}
