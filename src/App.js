@@ -1,5 +1,6 @@
 import './App.css';
 
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -39,7 +40,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/blog">
-          <Blogs/>
+          <Blogs />
         </Route>
         <Route exact path="/portfolio">
           <Service />
